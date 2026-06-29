@@ -1,0 +1,687 @@
+@font-face {
+    font-family: Reckless;
+    src: url(./fonts//RecklessCondensedS-TRIAL-Book.woff);
+}
+
+@font-face {
+    font-family: Figtree;
+    src: url(./fonts/figtree_n4.3c0838aba1701047e60be6a99a1b0a40ce9b8419.woff2);
+}
+
+@font-face {
+    font-family:  Midnight;
+    src: url(./fonts/midnight-sans-rd-12-medium-trial.otf);
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+main{
+    width: 100%;
+    min-height: 100vh;
+    background-color:#FBF9EB;
+   
+ 
+
+}
+
+nav{
+   width: 100%;
+ background-color: #FFFEFB;
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ font-family: Reckless;
+  padding: 0.8rem 1rem;
+   font-size: 0.8rem;
+   position: sticky;
+
+}
+nav i{
+    font-size: 2rem;
+    width: 33%;
+}
+nav .nav-part-1{
+    display: flex;
+    gap: 1rem;
+    width: 33%;
+    display: none;
+   
+}
+.nav-part-1 h3{
+font-weight: 300;
+}
+
+nav .nav-part-2{
+    width: 20%;
+    height: auto;
+    display: flex;
+    
+}
+
+.nav-part-2 img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.nav-part-3{
+    display: flex;
+    width: 30%;
+   gap: 2rem;
+   align-items: center;
+    justify-content: end;
+    
+}
+
+.nav-part-3 h3{
+font-weight: 300;
+display: none;
+}
+
+.nav-part-3 svg{
+   width: 30px;
+   height: 30px;
+
+}
+
+#section-1{
+    width: 100%;
+    height: 85vh;
+    background-image: url(https://www.twoleavestea.com/cdn/shop/files/AlpineBerry_mobile.webp?v=1774284087&width=720);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    padding: 3rem 0.5rem;
+    gap: 1rem;
+    text-align: center;
+    border-bottom: 1px solid #000;
+}
+
+#section-1 h1{
+    font-size: clamp(3.5rem,5vw,5rem);
+font-family: Reckless;
+color: white;
+font-weight: 500;
+
+}
+
+#section-1 p{
+    font-size: clamp(1.2rem,1vw,1rem);
+    font-family: Figtree;
+    font-weight: 400;       
+    color: white;
+}
+
+#section-1 button{
+   
+    padding: 1.2rem;
+    border: none;
+    background-color: #2A2857;
+    color: white;
+    font-family: Figtree;
+    border-radius: 1.2rem;
+    font-size: 1.1rem;
+}
+
+#section-2{
+    width: 100%;
+    height: auto;
+    padding: 8rem 1rem 4rem 1rem;
+    background-color: #FBF9EB;
+    
+}
+
+#section-2 .section2-text{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Reckless;
+       text-align: center;
+}
+
+.section2-text h1{
+     font-size: clamp(2.2rem,8vw,6rem);
+     font-weight: 300;
+     width: 80%;
+  
+}
+
+
+#section-2 .btn-1{
+    padding: 0.1rem 0.5rem;
+    font-size: 3rem;
+    font-family: Midnight;
+    font-weight: 600;
+    background-color: #DAAEEA;
+    border-radius: 1.2rem;
+    text-transform: uppercase;
+    margin-top: 5rem;
+    rotate: -5deg;
+    letter-spacing: 2px;
+}
+
+#section-2 .card-container{
+    width: 100%;
+    padding: 2rem 0;
+    display: flex;
+    overflow-x: auto;
+
+}
+.card-container::-webkit-scrollbar{
+  display: none;
+}
+.card{
+    display:flex ;
+    flex-direction: column;
+    gap: 1rem;
+    flex-shrink: 0;
+}
+.card-top{
+    width: 90%;
+    height: 35vh;
+    background-color: #C1EE91;
+    position: relative;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: space-between;
+    border-radius: 1rem;
+    border: 1px solid #000;
+    overflow: hidden;
+}
+
+.card-top:nth-child(1) {
+    background-color: #C1EE91;
+}
+
+.card:nth-child(2) .card-top {
+    background-color: #c8e892;
+}
+
+.card:nth-child(3) .card-top {
+    background-color: #B0E8C1;
+}
+
+.card:nth-child(4) .card-top {
+    background-color: #CCE3FF;
+}
+
+.card:nth-child(5) .card-top {
+    background-color: #FCD884;
+}
+
+.card:nth-child(6) .card-top {
+    background-color: #c1e4f8;
+}
+
+.card:nth-child(7) .card-top {
+    background-color: #c0ef71;
+}
+
+.card:nth-child(8) .card-top {
+    background-color: #fbcc96;
+}
+
+.card:nth-child(9) .card-top {
+    background-color: #fbd1b8;
+}
+
+.card:nth-child(10) .card-top {
+    background-color: #aee0f9;
+}
+
+
+
+.card-top-text{
+    width: 100%;
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    
+}
+.card-top-text button{
+    padding: 0.2rem 0.5rem;
+    border-radius: 0.2rem;
+    border: 1px solid #000;
+   background-color: #fff;
+   font-family: Midnight;
+   font-size: 1.2rem;
+   text-transform: uppercase;
+   display: block;
+   
+   font-weight: 400;
+}
+.card-top-text span{
+    font-size: 1.2rem;
+    font-family: Reckless;
+}
+.card-top img{
+    height: 90%;
+    width: 90%;
+    object-fit: cover;
+    object-position: center;
+  position: absolute;
+  transition: all ease 0.3s;
+}
+
+
+.card-btm-text{
+    background-color: #fff;
+    padding: 0.6rem 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.3rem;
+    font-family: Reckless;
+    font-size: 1.2rem;
+}
+
+.card-top:hover img{
+    scale: 1.1;
+}
+
+.card-btm{
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+     font-family: Reckless;
+     align-items: start;
+}
+
+.card-btm h1{
+ font-family: 0.3rem;
+ font-weight: 100;
+}
+
+.card-btm h3{
+ font-family: 0.3rem;
+ font-weight: 100;
+}
+.card-btm p{
+ font-weight: 100;
+opacity: 0.5;
+width: 90%;
+}
+
+.btn-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btm-btn{
+    
+   padding: 1.4rem;
+    border: none;
+    background-color: #2A2857;
+    color: white;
+    font-family: Figtree;
+    border-radius: 1.6rem;
+    font-size: 1.1rem;
+    
+}
+
+.custom-line{
+    border: none;
+    border-top: 1px solid #000;
+    margin-top: 3rem;
+    margin-bottom: 6rem;
+    width: 100%;
+}
+
+#section-3{
+    width: 100%;
+    min-height: 120vh;
+    padding: 8rem 1rem 6rem;
+    background-image: url(https://www.twoleavestea.com/cdn/shop/files/adam-vradenburg-_gu7E90QChU-unsplash_1_1.webp?v=1771592855&width=2000);
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+}
+
+.origins-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 2rem;
+    z-index: 2;
+    width: min(90%, 520px);
+    margin: 8rem auto 0;
+    padding: 2rem 0 4rem;
+}
+
+.origins-label{
+    background-color: #A2C9FC;
+    padding: 0.9rem 2rem;
+    border-radius: 0.4rem;
+    font-family: Midnight;
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    color: #2A2857;
+    text-transform: uppercase;
+}
+
+.origins-title{
+    font-family: Reckless;
+    font-size: clamp(4.5rem, 6vw, 6rem);
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    letter-spacing: 1.5px;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.4);
+    margin: 0;
+    line-height: 1.05;
+    max-width: 493px;
+}
+
+.origins-text{
+    font-family: Reckless;
+    font-size: clamp(1.3rem, 1.7vw, 1.9rem);
+    color: white;
+    text-align: center;
+    width: 100%;
+    max-width: 420px;
+    margin: 0 auto;
+    line-height: 1.8;
+    margin-top: 1rem;
+}
+
+#section-3 .accent-graphic-wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 3;
+}
+
+#section-3 .accent-graphic {
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+  width: 132px;
+  height: 132px;
+  z-index: 1;
+}
+
+#section-3 .accent-graphic img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+}
+
+.discover-section{
+    width: 100%;
+    padding: 7rem 1rem 4rem;
+    background-color: #fbf9eb;
+}
+
+.discover-content{
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1.4rem;
+    align-items: center;
+    text-align: center;
+}
+
+.section-small-label{
+    font-family: Midnight;
+    color: #2a2857;
+    background-color: #a2c9fc;
+    padding: 0.7rem 1.2rem;
+    border-radius: 0.3rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 1.1rem;
+}
+
+.discover-content h2{
+    font-family: Reckless;
+    font-size: clamp(2.6rem, 4.6vw, 3.8rem);
+    margin: 0;
+    line-height: 1;
+}
+
+.discover-content p{
+    font-family: Figtree;
+    font-size: 1rem;
+    color: #201c1a;
+    max-width: 700px;
+    line-height: 1.7;
+    margin: 0;
+}
+
+.discover-grid{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.8rem;
+    margin-top: 0.5rem;
+}
+
+.discover-pill{
+    padding: 0.7rem 1rem;
+    border: 1px solid #201c1a;
+    border-radius: 999px;
+    font-family: Midnight;
+    font-size: 0.85rem;
+    text-align: center;
+    color: #201c1a;
+    background: #fff;
+}
+
+.reviews-section{
+    width: 100%;
+    padding: 7rem 1rem 6rem;
+    background-color: #fbf9eb;
+}
+
+.reviews-content{
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    align-items: center;
+    text-align: center;
+}
+
+.reviews-content h2{
+    font-family: Reckless;
+    font-size: clamp(2.7rem, 4.2vw, 3.8rem);
+    margin: 0;
+    line-height: 1.1;
+    color: #201c1a;
+}
+
+.reviews-grid{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1.6rem;
+    margin-top: 1.2rem;
+}
+
+.review-card{
+    background: #fff;
+    padding: 2rem 1.8rem;
+    border-radius: 1.2rem;
+    box-shadow: 0 12px 30px rgba(0,0,0,0.08);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1.2rem;
+    text-align: left;
+    min-height: 260px;
+}
+
+.review-card p{
+    font-family: Figtree;
+    font-size: 1rem;
+    color: #201c1a;
+    line-height: 1.8;
+    margin: 0;
+}
+
+.review-author{
+    font-family: Reckless;
+    font-size: 1.05rem;
+    font-weight: 700;
+    color: #2a2857;
+}
+
+.review-product{
+    font-family: Figtree;
+    font-size: 0.9rem;
+    color: rgba(32, 28, 26, 0.7);
+    margin-top: 0.2rem;
+}
+
+.review-actions{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-top: auto;
+}
+
+.review-actions a{
+    padding: 0.8rem 1.4rem;
+    background:#2a2857;
+    color: #fff;
+    border-radius: 0.9rem;
+    text-decoration: none;
+    font-family: Midnight;
+    font-size: 0.9rem;
+}
+
+.review-actions span{
+    font-family: Midnight;
+    color: #2a2857;
+    letter-spacing: 1px;
+}
+
+@media (max-width: 900px) {
+    .reviews-grid{
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 768px) {
+    .discover-grid{
+        justify-content: center;
+    }
+
+    .origins-content{
+        margin: 5rem auto 0;
+    }
+}
+
+@media (min-width:1024px) {
+
+    nav{
+   width: 100%;
+ background-color: #FFFEFB;
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ font-family: Reckless;
+  padding: 0.5rem 1rem;
+   font-size: 0.8rem;
+   position: sticky;
+
+}
+    nav .nav-part-1{
+    display: flex;
+    gap: 1rem;
+    width: 30%;
+   
+   
+   
+}
+nav i{
+    display: none;
+}
+
+.nav-part-1 h3{
+  font-size: 1.5rem;
+font-weight: 300;
+}
+
+nav .nav-part-2{
+    width: 5%;
+
+    display: flex;
+    
+}
+.nav-part-3{
+    display: flex;
+    width: 40%;
+    gap: 1rem;
+    justify-content: end;
+    align-items: end;
+ 
+}
+.nav-part-3 h3{
+font-weight: 300;
+display: block;
+font-size: 1.5rem;
+white-space: nowrap;
+}
+
+#section-1{
+    width: 100%;
+   text-align: start;
+   padding: 3rem 2rem;
+   background-image: url(https://www.twoleavestea.com/cdn/shop/files/AlpineBerry.webp?v=1774284236&width=2250.0);
+   background-size: cover;
+}
+
+#section-1 h1{
+    width: 20%;
+}
+#section-1 p{
+    width: 20%;
+}
+
+#section-1 button{
+    width: fit-content;
+    padding: 1rem 4rem;
+    border-radius: 1.2rem,;
+}
+
+#section-2  .btn-1{
+   display: none;
+}
+.section2-text h1{
+    width: 50%;
+  
+}
+.card-container{
+    margin-top: 8rem;
+}
+}
